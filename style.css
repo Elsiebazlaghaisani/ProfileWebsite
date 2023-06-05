@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;   
+
+}
+
+body{
+    background: #42002dfa;
+    color: white;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #b90480fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;   
+    font-weight: 600;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.navbar {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #ff70d2fa;
+    text-decoration: none;
+    margin: 2px;
+    font-size: 20px;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;   
+    margin-top: 30px;
+}
+
+.homecontent{
+    max-width: 600px;
+}
+
+.homecontent h1{
+    font-size: 56px;
+    font-family: 700;    
+    line-height: 1.2;
+}
+
+.homecontent h3{
+    font-size: 32px;
+    font-weight: 800;
+    color: #ff44c4fa;
+}
+
+.homecontent p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.homecontent .btnbox {
+    width: 400px;
+    height: 50px;
+    display: flex;
+}
+
+.btnbox a{
+    width: 130px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    font-size: 15px;
+    color: #ff70d2fa;
+    border: .5px solid #ff70d2fa;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    transition: color 0.5s;
+}
+.btnbox a span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ff70d2fa;
+    z-index: -1;
+    transition: 0.5s;
+}
+.btnbox a:hover span{
+    width: 100%;
+}
+.btnbox a:hover {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
